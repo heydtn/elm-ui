@@ -259,80 +259,80 @@ justify =
 
 
 {-| -}
-underline : Attribute msg
+underline : Attr decorative msg
 underline =
     Internal.htmlClass classes.underline
 
 
 {-| -}
-strike : Attribute msg
+strike : Attr decorative msg
 strike =
     Internal.htmlClass classes.strike
 
 
 {-| -}
-italic : Attribute msg
+italic : Attr decorative msg
 italic =
     Internal.htmlClass classes.italic
 
 
 {-| -}
-bold : Attribute msg
+bold : Attr decorative msg
 bold =
     Internal.Class Flag.fontWeight classes.bold
 
 
 {-| -}
-light : Attribute msg
+light : Attr decorative msg
 light =
     Internal.Class Flag.fontWeight classes.textLight
 
 
 {-| -}
-hairline : Attribute msg
+hairline : Attr decorative msg
 hairline =
     Internal.Class Flag.fontWeight classes.textThin
 
 
 {-| -}
-extraLight : Attribute msg
+extraLight : Attr decorative msg
 extraLight =
     Internal.Class Flag.fontWeight classes.textExtraLight
 
 
 {-| -}
-regular : Attribute msg
+regular : Attr decorative msg
 regular =
     Internal.Class Flag.fontWeight classes.textNormalWeight
 
 
 {-| -}
-semiBold : Attribute msg
+semiBold : Attr decorative msg
 semiBold =
     Internal.Class Flag.fontWeight classes.textSemiBold
 
 
 {-| -}
-medium : Attribute msg
+medium : Attr decorative msg
 medium =
     Internal.Class Flag.fontWeight classes.textMedium
 
 
 {-| -}
-extraBold : Attribute msg
+extraBold : Attr decorative msg
 extraBold =
     Internal.Class Flag.fontWeight classes.textExtraBold
 
 
 {-| -}
-heavy : Attribute msg
+heavy : Attr decorative msg
 heavy =
     Internal.Class Flag.fontWeight classes.textHeavy
 
 
 {-| This will reset bold and italic.
 -}
-unitalicized : Attribute msg
+unitalicized : Attr decorative msg
 unitalicized =
     Internal.htmlClass classes.textUnitalicized
 
